@@ -56,6 +56,8 @@ class listaEnlazada:
             previo.asignarSiguiente(actual.obtenerSiguiente())
 
 
+
+
 milista = listaEnlazada()
 print(milista.agregar(31))
 print(milista.agregar(77))
@@ -66,7 +68,7 @@ print(milista.agregar(54))
 
 print(milista)
 print(milista.buscar(17))
-
+print(milista.remover(17))
 
 
 
